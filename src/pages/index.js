@@ -9,6 +9,7 @@ import Connect from "../components/Connect/Connect.js"
 import Projects from "../components/Projects/Projects.js"
 
 import QuotesImage from "../components/Quotes.image.js"
+import BlurImage from "../components/BlurTop.image.js"
 
 import GithubLogo from "../assets/github.svg"
 import InstagramLogo from "../assets/instagram.svg"
@@ -20,6 +21,17 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
     <div className="home-container">
+      <div
+        className="top-blur"
+        style={{
+          width: `190px`,
+          top: `0%`,
+          right: `-5%`,
+          position: `absolute`,
+        }}
+      >
+        <BlurImage />
+      </div>
       <div className="intro-wrapper">
         <div className="intro">
           <div
