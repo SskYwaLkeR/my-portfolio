@@ -3,7 +3,7 @@ import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import About from "../components/About/About.js"
-
+import Skills from "../components/Skills/Skills.js"
 import GithubLogo from "../assets/github.svg"
 import InstagramLogo from "../assets/instagram.svg"
 import TwitterLogo from "../assets/twitter.svg"
@@ -36,6 +36,7 @@ const IndexPage = () => (
         </div>
       </div>
       <About />
+      <Skills />
     </div>
   </Layout>
 )

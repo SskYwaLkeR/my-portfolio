@@ -1,0 +1,13 @@
+.skill-set-wrapper {
+  padding-right: 1.45rem;
+  display: flex;
+  width: 100%;
+  background-color: red;
+  justify-content: space-between;
+}
+
+@media only screen and (max-width: 480px) {
+  .skill-set-wrapper {
+    flex-direction: column;
+  }
+}
