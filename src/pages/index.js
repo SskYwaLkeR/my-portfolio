@@ -42,6 +42,7 @@ const IndexPage = () => (
               bottom: `-25%`,
               left: `-20%`,
               zIndex: `-5`,
+              opacity: `0.5`,
             }}
           >
             <QuotesImage />
