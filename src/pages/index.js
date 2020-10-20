@@ -8,6 +8,8 @@ import Experience from "../components/Experience/Experience.js"
 import Connect from "../components/Connect/Connect.js"
 import Projects from "../components/Projects/Projects.js"
 
+// import QuotesImage from "../components/Quotes.image.js"
+
 import GithubLogo from "../assets/github.svg"
 import InstagramLogo from "../assets/instagram.svg"
 import TwitterLogo from "../assets/twitter.svg"
@@ -22,10 +24,13 @@ const IndexPage = () => (
         <div className="intro">
           <div className="socials">
             <div className="line"></div>
+
             <div className="social-icons">
               <GithubLogo />
               <InstagramLogo />
               <TwitterLogo />
+
+              {/* <QuotesImage /> */}
             </div>
           </div>
           <h2>Hi, I'm Hrishikesh.</h2>

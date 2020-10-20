@@ -39,7 +39,7 @@
   margin-top: 1rem;
 }
 
-.btn-group .resume-btn {
+.resume-btn {
   width: 140px;
   height: 35px;
   margin-right: 10px;
@@ -63,13 +63,36 @@
 }
 
 .view-resume-btn:hover {
+  background-color: rgb(82, 82, 82);
   box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.2);
   transform: translateY(-3px);
 }
 
 .download-resume-btn:hover {
-  background-color: black;
+  background-color: rgb(82, 82, 82);
+  border: none;
   color: #ffffff;
   box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.2);
   transform: translateY(-3px);
 }
+
+@media only screen and (min-width: 720px) {
+  .intro h2 {
+    font-size: 2.7rem;
+  }
+
+  .resume-btn {
+    width: 200px;
+    height: 45px;
+    border-radius: 8px;
+  }
+}
+
+/* .gatsby-image-wrapper {
+  transform: scale(5);
+}
+
+.gatsby-image-wrapper img[sizes] {
+  position: absolute;
+  top: 10%;
+} */
