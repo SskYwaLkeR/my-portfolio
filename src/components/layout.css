@@ -41,7 +41,7 @@ div[tabindex] {
 
 .layout-body {
   width: 100%;
-  height: calc(100% - 78px);
+  height: 100%;
   margin: 0 auto;
   max-width: 1200px;
   padding: 0 1.0875rem 1.45rem;
