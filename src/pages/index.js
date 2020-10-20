@@ -9,7 +9,7 @@ import Connect from "../components/Connect/Connect.js"
 import Projects from "../components/Projects/Projects.js"
 
 import QuotesImage from "../components/Quotes.image.js"
-import BlurImage from "../components/BlurTop.image.js"
+import BlurBottom from "../components/BlurBottom.image.js"
 
 import GithubLogo from "../assets/github.svg"
 import InstagramLogo from "../assets/instagram.svg"
@@ -24,23 +24,24 @@ const IndexPage = () => (
       <div
         className="top-blur"
         style={{
-          width: `190px`,
+          width: `180px`,
           top: `0%`,
-          right: `-5%`,
+          right: `0%`,
           position: `absolute`,
         }}
       >
-        <BlurImage />
+        <BlurBottom />
       </div>
       <div className="intro-wrapper">
         <div className="intro">
           <div
             className="quotes"
             style={{
-              width: `400px`,
-              top: `-180%`,
-              left: `-18%`,
+              width: `500px`,
               position: `absolute`,
+              bottom: `-25%`,
+              left: `-20%`,
+              zIndex: `-5`,
             }}
           >
             <QuotesImage />
@@ -55,7 +56,9 @@ const IndexPage = () => (
             </div>
           </div>
           <h2>Hi, I'm Hrishikesh.</h2>
-          <h2>Front end developer,</h2>
+          <h2>
+            Front end <span>developer</span>,
+          </h2>
           <h2>CS graduate and javascript enthusiast.</h2>
           <div className="btn-group">
             <button className="resume-btn view-resume-btn">View Resume</button>
@@ -63,6 +66,20 @@ const IndexPage = () => (
               Download Resume
             </button>
           </div>
+        </div>
+
+        <div
+          className="blur-bottom"
+          style={{
+            width: `250px`,
+            bottom: `3%`,
+            left: `-18%`,
+            position: `absolute`,
+
+            zIndex: `-1`,
+          }}
+        >
+          <BlurBottom />
         </div>
       </div>
       <About />

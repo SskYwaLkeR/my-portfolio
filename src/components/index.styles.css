@@ -85,11 +85,22 @@
     width: 200px;
     height: 45px;
     border-radius: 8px;
+    font-size: 0.8rem;
   }
+}
+
+h2 span {
+  color: #d5b6e4;
 }
 
 @media screen and (max-width: 1026px) {
   .quotes {
+    display: none;
+  }
+  .top-blur {
+    display: none;
+  }
+  .blur-bottom {
     display: none;
   }
 }
