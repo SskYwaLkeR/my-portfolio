@@ -16,6 +16,28 @@ const Projects = () => (
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius natus
       debitis eaque nam quas ullam mollitia fugit quisquam ipsum libero.
     </p>
+
+    <div className="project-display">
+      <div className="proj-img"></div>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, ducimus.
+      </p>
+      <p>View Project {">"} </p>
+    </div>
+    <div className="project-display">
+      <div className="proj-img"></div>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, ducimus.
+      </p>
+      <p>View Project {">"} </p>
+    </div>
+    <div className="project-display">
+      <div className="proj-img"></div>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, ducimus.
+      </p>
+      <p>View Project {">"} </p>
+    </div>
   </div>
 )
 
