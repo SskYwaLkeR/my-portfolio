@@ -57,12 +57,10 @@ h1 {
   font-weight: bold;
   font-size: 2.25rem;
   line-height: 1.1;
-  margin-bottom: 1.45rem;
   text-rendering: optimizeLegibility;
 }
 
 h2 {
-  margin-bottom: 1.45rem;
   font-weight: bold;
   font-size: 1.62671rem;
   text-rendering: optimizeLegibility;
@@ -70,7 +68,6 @@ h2 {
 }
 
 h3 {
-  margin-bottom: 1.45rem;
   font-weight: bold;
   text-rendering: optimizeLegibility;
   line-height: 1.1;
@@ -91,10 +88,6 @@ ol {
   margin-left: 1.45rem;
   margin-bottom: 1.45rem;
   list-style-position: outside;
-}
-
-p {
-  margin-bottom: 1.45rem;
 }
 
 img {

@@ -22,9 +22,9 @@ const IndexPage = () => (
             <TwitterLogo />
           </div>
         </div>
-        <h1>Hi, I'm Hrishikesh .</h1>
-        <h1>Front end developer,</h1>
-        <h1>CS graduate and javascript enthusiast.</h1>
+        <h2>Hi, I'm Hrishikesh.</h2>
+        <h2>Front end developer,</h2>
+        <h2>CS graduate and javascript enthusiast.</h2>
       </div>
     </div>
   </Layout>
