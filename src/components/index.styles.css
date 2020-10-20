@@ -88,11 +88,8 @@
   }
 }
 
-/* .gatsby-image-wrapper {
-  transform: scale(5);
+@media screen and (max-width: 1026px) {
+  .quotes {
+    display: none;
+  }
 }
-
-.gatsby-image-wrapper img[sizes] {
-  position: absolute;
-  top: 10%;
-} */

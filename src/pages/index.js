@@ -8,7 +8,7 @@ import Experience from "../components/Experience/Experience.js"
 import Connect from "../components/Connect/Connect.js"
 import Projects from "../components/Projects/Projects.js"
 
-// import QuotesImage from "../components/Quotes.image.js"
+import QuotesImage from "../components/Quotes.image.js"
 
 import GithubLogo from "../assets/github.svg"
 import InstagramLogo from "../assets/instagram.svg"
@@ -22,6 +22,17 @@ const IndexPage = () => (
     <div className="home-container">
       <div className="intro-wrapper">
         <div className="intro">
+          <div
+            className="quotes"
+            style={{
+              width: `400px`,
+              top: `-180%`,
+              left: `-18%`,
+              position: `absolute`,
+            }}
+          >
+            <QuotesImage />
+          </div>
           <div className="socials">
             <div className="line"></div>
 
@@ -29,8 +40,6 @@ const IndexPage = () => (
               <GithubLogo />
               <InstagramLogo />
               <TwitterLogo />
-
-              {/* <QuotesImage /> */}
             </div>
           </div>
           <h2>Hi, I'm Hrishikesh.</h2>
