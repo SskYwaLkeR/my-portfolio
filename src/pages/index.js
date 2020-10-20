@@ -25,6 +25,12 @@ const IndexPage = () => (
         <h2>Hi, I'm Hrishikesh.</h2>
         <h2>Front end developer,</h2>
         <h2>CS graduate and javascript enthusiast.</h2>
+        <div className="btn-group">
+          <button className="resume-btn view-resume-btn">View Resume</button>
+          <button className="resume-btn download-resume-btn">
+            Download Resume
+          </button>
+        </div>
       </div>
     </div>
   </Layout>

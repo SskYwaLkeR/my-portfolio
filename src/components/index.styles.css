@@ -6,7 +6,7 @@
 
 .intro {
   position: absolute;
-  top: 30%;
+  top: 25%;
 }
 
 .socials {
@@ -28,4 +28,43 @@
 .intro h2 {
   letter-spacing: 0.1rem;
   font-weight: 500;
+}
+
+.btn-group {
+  margin-top: 1rem;
+}
+
+.btn-group .resume-btn {
+  width: 140px;
+  height: 35px;
+  margin-right: 10px;
+  border-radius: 30px;
+  cursor: pointer;
+  outline: none;
+  font-weight: 600;
+  transition: all 0.3s ease 0s;
+}
+
+.view-resume-btn {
+  background-color: black;
+  color: white;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  border: none;
+}
+
+.download-resume-btn {
+  border: solid 3px black;
+  background-color: #ffffff;
+}
+
+.view-resume-btn:hover {
+  box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.2);
+  transform: translateY(-3px);
+}
+
+.download-resume-btn:hover {
+  background-color: black;
+  color: #ffffff;
+  box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.2);
+  transform: translateY(-3px);
 }
