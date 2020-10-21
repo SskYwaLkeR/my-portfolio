@@ -1,10 +1,10 @@
 import React from "react"
 import "./experience.styles.css"
 import { Experience as exp, TimeLine } from "../../page-data.js"
+import StaticComponent from "../Container/StaticComponent.js"
 const Experience = () => (
   <div className="experience-wrapper">
-    <h1>{exp.title}</h1>
-    <p>{exp.description}</p>
+    <StaticComponent title={exp.title} description={exp.description} />
 
     <div className="container">
       {TimeLine.map(data => (
