@@ -31,7 +31,7 @@ export const Projects = {
 //for connect with me page
 
 export const LetsTalk = {
-  title: `Let'sTalk`,
+  title: `Let's Talk`,
   description: `Lorem, ipsum dolor sit amet consectetur adipisicing elit.
       Eum, necessitatibus facere! Molestiae, eos. Iste, quis. Non corrupti nemo ut animi,
       accusantium ratione incidunt porro velit earum laborum consequatur? Eius, obcaecati!`,
