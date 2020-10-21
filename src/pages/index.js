@@ -28,6 +28,7 @@ const IndexPage = () => (
           top: `0%`,
           right: `0%`,
           position: `absolute`,
+          zIndex: `-5`,
         }}
       >
         <BlurBottom />
@@ -41,8 +42,7 @@ const IndexPage = () => (
               position: `absolute`,
               bottom: `-25%`,
               left: `-20%`,
-              zIndex: `-5`,
-              opacity: `0.5`,
+              zIndex: `-1`,
             }}
           >
             <QuotesImage />
@@ -56,7 +56,7 @@ const IndexPage = () => (
               <TwitterLogo />
             </div>
           </div>
-          <h2>Hi, I'm Hrishikesh.</h2>
+          <h2>Hi,! I'm Hrishikesh.</h2>
           <h2>
             Front end <span>developer</span>,
           </h2>
@@ -77,7 +77,7 @@ const IndexPage = () => (
             left: `-18%`,
             position: `absolute`,
 
-            zIndex: `-1`,
+            zIndex: `-2`,
           }}
         >
           <BlurBottom />
