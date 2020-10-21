@@ -57,7 +57,7 @@ const IndexPage = () => (
               <TwitterLogo />
             </div>
           </div>
-          <h2>Hi,! I'm Hrishikesh.</h2>
+          <h2>Hi, I'm Hrishikesh.</h2>
           <h2>
             Front end <span>developer</span>,
           </h2>
