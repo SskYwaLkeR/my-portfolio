@@ -35,7 +35,7 @@ export const LetsTalk = {
       accusantium ratione incidunt porro velit earum laborum consequatur? Eius, obcaecati!`,
 }
 
-// timeline is data showcasing my work experience
+// timeline is data showcasing my work experience alternate class name left and right has to be maintained
 
 export const TimeLine = [
   {
