@@ -1,4 +1,7 @@
 .static-container h1 {
   margin-bottom: 2rem;
+}
+
+.static-container {
   margin-top: 4rem;
 }

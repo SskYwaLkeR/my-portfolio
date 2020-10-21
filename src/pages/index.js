@@ -2,12 +2,12 @@ import React from "react"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import About from "../components/About/About.js"
 import Skills from "../components/Skills/Skills.js"
 import Experience from "../components/Experience/Experience.js"
 import Connect from "../components/Connect/Connect.js"
 import Projects from "../components/Projects/Projects.js"
 import Instagram from "../components/Instagram/Instagram.js"
+import StaticComponent from "../components/Container/StaticComponent.js"
 
 import QuotesImage from "../components/Quotes.image.js"
 import BlurBottom from "../components/BlurBottom.image.js"
@@ -15,6 +15,8 @@ import BlurBottom from "../components/BlurBottom.image.js"
 import GithubLogo from "../assets/github.svg"
 import InstagramLogo from "../assets/instagram.svg"
 import TwitterLogo from "../assets/twitter.svg"
+
+import { AboutMe } from "../page-data.js"
 
 import "../components/index.styles.css"
 
@@ -84,7 +86,12 @@ const IndexPage = () => (
           <BlurBottom />
         </div>
       </div>
-      <About />
+
+      <StaticComponent
+        title={AboutMe.title}
+        description={AboutMe.description}
+      />
+
       <Skills />
       <Experience />
       <Projects />
