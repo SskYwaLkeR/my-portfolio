@@ -1,14 +1,13 @@
 import React from "react"
 import "./skills.styles.css"
+import { MySkills } from "../../page-data.js"
+import StaticComponent from "../Container/StaticComponent.js"
 const Skills = () => (
   <div className="skills-wrapper">
-    <h1>My Skills </h1>
-    <p>
-      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem quod
-      reiciendis ratione provident esse excepturi dolor blanditiis atque error
-      iste doloremque nihil fugit et expedita, ipsam aliquam, magnam facere
-      voluptas?
-    </p>
+    <StaticComponent
+      title={MySkills.title}
+      description={MySkills.description}
+    />
     <div className="skill-set-wrapper">
       <ul>
         <li>HTML</li>
