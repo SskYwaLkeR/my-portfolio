@@ -1,43 +1,19 @@
 import React from "react"
 import "./projects.styles.css"
+import { Projects as proj, ProjectsData } from "../../page-data.js"
+import StaticComponent from "../Container/StaticComponent.js"
 const Projects = () => (
   <div className="projects-wrapper">
-    <h1>Projects </h1>
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident aperiam
-      modi cum, sequi natus expedita cumque ducimus dolorum dolore eaque
-      doloremque numquam. Ratione eius quos cum dolore quam quidem obcaecati.
-      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis
-      debitis dolorum quis porro soluta aut incidunt repudiandae ea, laborum
-      quod nisi aliquam odit eligendi harum labore, id dolorem in officia!
-    </p>
+    <StaticComponent title={proj.title} description={proj.description} />
 
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius natus
-      debitis eaque nam quas ullam mollitia fugit quisquam ipsum libero.
-    </p>
-
-    <div className="project-display">
-      <div className="proj-img"></div>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, ducimus.
-      </p>
-      <p>View Project {">"} </p>
-    </div>
-    <div className="project-display">
-      <div className="proj-img"></div>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, ducimus.
-      </p>
-      <p>View Project {">"} </p>
-    </div>
-    <div className="project-display">
-      <div className="proj-img"></div>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, ducimus.
-      </p>
-      <p>View Project {">"} </p>
-    </div>
+    {ProjectsData.map(data => (
+      <div className="project-display" key={data.key}>
+        <div className="proj-img">{<data.img />}</div>
+        <h3>{data.title}</h3>
+        <p>{data.description}</p>
+        <p>View Project {">"} </p>
+      </div>
+    ))}
   </div>
 )
 

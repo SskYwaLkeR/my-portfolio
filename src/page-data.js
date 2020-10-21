@@ -1,3 +1,5 @@
+import ProjectOne from "./components/Ecomm.image"
+
 export const AboutMe = {
   title: `About Me`,
   description: `Lorem, ipsum dolor sit amet consectetur adipisicing elit.
@@ -67,5 +69,32 @@ export const TimeLine = [
          Duis aute irure dolor in reprehenderit in voluptate.`,
     class: `timeline-block-right`,
     key: `3c`,
+  },
+]
+
+export const ProjectsData = [
+  {
+    img: ProjectOne,
+    title: `E-comm`,
+    description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.,`,
+    key: `p1`,
+    url: `/e-comm`,
+  },
+  {
+    img: ProjectOne,
+    title: `E-comm`,
+    description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.,`,
+    key: `p2`,
+    url: `/e-comm`,
+  },
+  {
+    img: ProjectOne,
+    title: `E-comm`,
+    description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.,`,
+    key: `p3`,
+    url: `/e-comm`,
   },
 ]
