@@ -46,6 +46,7 @@ export const TimeLine = [
          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
          Duis aute irure dolor in reprehenderit in voluptate.`,
     class: `timeline-block-right`,
+    key: `1a`,
   },
   {
     title: `Tuutr.com`,
@@ -55,6 +56,7 @@ export const TimeLine = [
          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
          Duis aute irure dolor in reprehenderit in voluptate.`,
     class: `timeline-block-left`,
+    key: `2b`,
   },
   {
     title: `Still finiding`,
@@ -64,5 +66,6 @@ export const TimeLine = [
          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
          Duis aute irure dolor in reprehenderit in voluptate.`,
     class: `timeline-block-right`,
+    key: `3c`,
   },
 ]

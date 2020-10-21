@@ -8,7 +8,7 @@ const Experience = () => (
 
     <div className="container">
       {TimeLine.map(data => (
-        <div className={`timeline-block ${data.class}`}>
+        <div className={`timeline-block ${data.class}`} key={data.key}>
           <div className="marker"></div>
           <div className="timeline-content">
             <h3>{data.title}</h3>
