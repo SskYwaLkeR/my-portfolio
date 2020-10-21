@@ -7,6 +7,7 @@ import Skills from "../components/Skills/Skills.js"
 import Experience from "../components/Experience/Experience.js"
 import Connect from "../components/Connect/Connect.js"
 import Projects from "../components/Projects/Projects.js"
+import Instagram from "../components/Instagram/Instagram.js"
 
 import QuotesImage from "../components/Quotes.image.js"
 import BlurBottom from "../components/BlurBottom.image.js"
@@ -89,6 +90,7 @@ const IndexPage = () => (
       <Projects />
 
       <Connect />
+      <Instagram />
     </div>
   </Layout>
 )
