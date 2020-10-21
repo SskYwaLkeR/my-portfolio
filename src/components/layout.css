@@ -58,6 +58,8 @@ h1 {
   font-size: 2.25rem;
   line-height: 1.1;
   text-rendering: optimizeLegibility;
+  margin-bottom: 1.45rem;
+  margin-top: 2rem;
 }
 
 h2 {
