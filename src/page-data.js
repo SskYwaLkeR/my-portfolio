@@ -25,16 +25,13 @@ export const MySkills = {
 
 export const Experience = {
   title: `Experience`,
-  description: `Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-    Eum, necessitatibus facere! Molestiae, eos. Iste, quis. Non corrupti nemo ut animi,
-    accusantium ratione incidunt porro velit earum laborum consequatur? Eius, obcaecati!`,
+  description: `I've done internships at two different companies in the past. Read more about my internship below.`,
 }
 
 export const Projects = {
   title: `Projects`,
-  description: `Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-      Eum, necessitatibus facere! Molestiae, eos. Iste, quis. Non corrupti nemo ut animi,
-      accusantium ratione incidunt porro velit earum laborum consequatur? Eius, obcaecati!`,
+  description: `I really love learning new skill and building websites. Take a look into some of the application , and blogs I've 
+  dedicated my time to .`,
 }
 
 //for connect with me page
