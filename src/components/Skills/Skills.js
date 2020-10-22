@@ -10,19 +10,20 @@ const Skills = () => (
     />
     <div className="skill-set-wrapper">
       <ul>
-        <li>HTML</li>
-        <li>CSS</li>
         <li>Javascript</li>
+        <li>React.js</li>
+        <li>Node.js</li>
       </ul>
       <ul>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>Javascript</li>
+        <li>Vue</li>
+        <li>SCSS</li>
+        <li>Styled Components</li>
       </ul>
       <ul>
+        <li>Git</li>
+
         <li>HTML</li>
         <li>CSS</li>
-        <li>Javascript</li>
       </ul>
     </div>
   </div>

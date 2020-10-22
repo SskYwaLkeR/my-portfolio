@@ -12,15 +12,15 @@ export const AboutMe = {
 
   description3: `As I grow as a developer, I worked alongside with senior developers and designers who raised my standard
   for whats expected for any web applications, and through these experiences I've the opportunity to create memorable products
-  which is not only easy to use but are also written in code that is maintainable and easy to understand.
+  which is not only easy to use but are also written in code that is maintainable and easy to understand. Also I'm seeking a full-time
+  role where I can combine my skills that I gained and see how I will be able to contribute to the firm . 
   `,
 }
 
 export const MySkills = {
   title: `My Skills`,
-  description: `Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-    Eum, necessitatibus facere! Molestiae, eos. Iste, quis. Non corrupti nemo ut animi,
-    accusantium ratione incidunt porro velit earum laborum consequatur? Eius, obcaecati!`,
+  description: `Through my studies I have gained a solid understanding of computer science, and web development concepts and I 
+  dedicated lot of my free time applying these concepts to actual scenarios and applications `,
 }
 
 export const Experience = {

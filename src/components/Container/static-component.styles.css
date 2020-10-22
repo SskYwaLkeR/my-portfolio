@@ -6,3 +6,7 @@
 .static-container {
   margin-top: 4rem;
 }
+
+.static-container p {
+  margin-bottom: 2rem;
+}
