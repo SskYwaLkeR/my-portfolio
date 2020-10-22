@@ -90,3 +90,28 @@ li:nth-last-child(-n + 3) {
 .lessons-learned {
   margin-top: 4rem;
 }
+
+@media only screen and (max-width: 480px) {
+  .project-stack {
+    flex-direction: column;
+  }
+
+  .project-stack ul {
+    margin: 0;
+  }
+  .project-goal {
+    width: 100%;
+  }
+
+  .tech-stack-wrapper {
+    flex-direction: column-reverse;
+  }
+
+  .tech-stacks {
+    width: 100%;
+    justify-content: flex-start;
+  }
+  .tech-description {
+    width: 100%;
+  }
+}
