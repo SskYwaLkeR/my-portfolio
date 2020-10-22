@@ -47,30 +47,21 @@ export const TimeLine = [
   {
     title: `We18.in`,
     role: `Front-end developer`,
-    description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-         sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-         Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-         Duis aute irure dolor in reprehenderit in voluptate.`,
+    description: `We18.in is a service based startup company in Pune. Read more about my experience as an intern at We18`,
     class: `timeline-block-right`,
     key: `1a`,
   },
   {
     title: `Tuutr.com`,
     role: `Front-end developer`,
-    description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-         sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-         Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-         Duis aute irure dolor in reprehenderit in voluptate.`,
+    description: `Tuutr is a ed-tech startup company at Bangalore. Read more about my experience as an intern at Tuutr .`,
     class: `timeline-block-left`,
     key: `2b`,
   },
   {
-    title: `Still finiding`,
-    role: `javascript developer`,
-    description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-         sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-         Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-         Duis aute irure dolor in reprehenderit in voluptate.`,
+    title: `Still in search for`,
+    role: `Software developer`,
+    description: ``,
     class: `timeline-block-right`,
     key: `3c`,
   },
@@ -80,24 +71,21 @@ export const ProjectsData = [
   {
     img: ProjectOne,
     title: `E-comm`,
-    description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.,`,
+    description: `A scalable e-commerce application built with React and Redux`,
     key: `p1`,
     url: `/e-comm`,
   },
   {
     img: ProjectOne,
-    title: `E-comm`,
-    description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.,`,
+    title: `Monsters`,
+    description: `A react application where user can search for monsters`,
     key: `p2`,
     url: `/e-comm`,
   },
   {
     img: ProjectOne,
-    title: `E-comm`,
-    description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.,`,
+    title: `Adopt pet`,
+    description: `A portal built with react where user can  adopt abandoned pets`,
     key: `p3`,
     url: `/e-comm`,
   },
