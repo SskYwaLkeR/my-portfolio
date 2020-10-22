@@ -125,7 +125,7 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar-track {
-  background: #bbbbbb;
+  background: #dddddd;
 }
 body::-webkit-scrollbar-thumb {
   background: black;
