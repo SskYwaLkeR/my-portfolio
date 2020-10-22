@@ -119,3 +119,15 @@ li > ul {
     font-size: 100%;
   }
 }
+
+body::-webkit-scrollbar {
+  width: 10px;
+}
+
+body::-webkit-scrollbar-track {
+  background: #bbbbbb;
+}
+body::-webkit-scrollbar-thumb {
+  background: black;
+  border-radius: 30px;
+}
