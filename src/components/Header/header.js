@@ -1,6 +1,7 @@
 import { Link } from "gatsby"
 import React from "react"
 import "./header.styles.css"
+import Hamburger from "../../assets/hamburger.svg"
 
 const Header = () => {
   const openNav = () => {
@@ -28,7 +29,9 @@ const Header = () => {
             <Link to="/">Contact</Link>
           </div>
         </div>
-        <button onClick={() => openNav()}>&#9776;</button>
+        <button onClick={() => openNav()}>
+          <Hamburger />
+        </button>
       </div>
     </header>
   )
