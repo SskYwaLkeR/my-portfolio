@@ -38,9 +38,7 @@ export const Projects = {
 
 export const LetsTalk = {
   title: `Let's Talk`,
-  description: `Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-      Eum, necessitatibus facere! Molestiae, eos. Iste, quis. Non corrupti nemo ut animi,
-      accusantium ratione incidunt porro velit earum laborum consequatur? Eius, obcaecati!`,
+  description: `Feel free to reach out if you're looking for a developer, have a question or just want to connect .`,
 }
 
 // timeline is data showcasing my work experience alternate class name left and right has to be maintained
