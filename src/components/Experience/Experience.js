@@ -11,7 +11,7 @@ const Experience = () => (
         <div className={`timeline-block ${data.class}`} key={data.key}>
           <div className="marker"></div>
           <div className="timeline-content">
-            <h3>{data.title}</h3>
+            <h2>{data.title}</h2>
             <span>{data.role}</span>
             <p>{data.description}</p>
           </div>
