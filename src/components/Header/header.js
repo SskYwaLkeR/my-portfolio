@@ -29,7 +29,7 @@ const Header = () => {
             <Link to="/">Contact</Link>
           </div>
         </div>
-        <button onClick={() => openNav()}>
+        <button aria-label="hamburger" onClick={() => openNav()}>
           <Hamburger />
         </button>
       </div>
