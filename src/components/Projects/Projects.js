@@ -9,7 +9,7 @@ const Projects = () => (
     {ProjectsData.map(data => (
       <div className="project-display" key={data.key}>
         <div className="proj-img">{<data.img />}</div>
-        <h3>{data.title}</h3>
+        <h2>{data.title}</h2>
         <p>{data.description}</p>
         <p>View Project {">"} </p>
       </div>

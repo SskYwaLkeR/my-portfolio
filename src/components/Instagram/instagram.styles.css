@@ -6,8 +6,10 @@
   margin-bottom: 5rem;
 }
 
-.instagram-wrapper h3 {
+.instagram-wrapper h2 {
   margin-bottom: 1rem;
+  font-weight: 500;
+  font-size: 1.5rem;
 }
 
 .insta-img-container {

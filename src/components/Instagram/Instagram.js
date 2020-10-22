@@ -3,7 +3,7 @@ import "./instagram.styles.css"
 const Instagram = () => (
   <div className="instagram-wrapper">
     <div className="insta-text">
-      <h3>I sometime design cool stuff on instagram</h3>
+      <h2>I sometime design cool stuff on instagram</h2>
       <p>see more {">"}</p>
     </div>
 

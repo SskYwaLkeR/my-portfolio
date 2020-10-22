@@ -10,6 +10,11 @@
   margin-top: 2.25rem;
 }
 
+.project-display h2 {
+  font-weight: 500;
+  font-size: 1.4rem;
+}
+
 .proj-img {
   border: solid 30px rgb(197, 197, 197);
   background-position: center;
