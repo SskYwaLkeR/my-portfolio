@@ -1,0 +1,92 @@
+.project-wrapper {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.project-intro {
+  width: 100%;
+  height: 100%;
+}
+
+.intro-wrap {
+  position: absolute;
+  top: 15%;
+}
+.project-stack {
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.project-wrapper h1 {
+  margin-bottom: 1.45rem;
+  font-weight: 500;
+}
+
+.project-intro p {
+  margin-bottom: 1.2rem;
+}
+
+.project-intro li:nth-child(1) {
+  list-style: none;
+}
+
+li:nth-last-child(-n + 3) {
+  margin-left: 1.1rem;
+}
+
+.hero-img {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.project-goal {
+  width: 50%;
+  margin-top: 4rem;
+}
+
+.tech-stack-wrapper {
+  display: flex;
+  margin-top: 4rem;
+
+  width: 100%;
+}
+
+.tech-stacks {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tech-description {
+  width: 50%;
+}
+
+.images-wrapper {
+  margin-top: 4rem;
+
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.img-left {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+}
+
+.image-three {
+  width: 55%;
+  align-self: center;
+}
+
+.challenges {
+  margin-top: 4rem;
+}
+
+.lessons-learned {
+  margin-top: 4rem;
+}
