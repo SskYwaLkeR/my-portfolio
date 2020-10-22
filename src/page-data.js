@@ -59,7 +59,7 @@ export const TimeLine = [
     key: `2b`,
   },
   {
-    title: `Still in search for`,
+    title: `Still in search for 👀`,
     role: `Software developer role`,
     description: ``,
     class: `timeline-block-right`,
