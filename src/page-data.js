@@ -60,7 +60,7 @@ export const TimeLine = [
   },
   {
     title: `Still in search for`,
-    role: `Software developer`,
+    role: `Software developer role`,
     description: ``,
     class: `timeline-block-right`,
     key: `3c`,
