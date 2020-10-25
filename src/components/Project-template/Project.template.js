@@ -21,11 +21,9 @@ const ProjectTemplate = ({
         <p>{description}</p>
         <div className="project-stack">
           <p>
-            <b>
-              {" "}
-              view live {">"}
-              {url}
-            </b>
+            <a href={url} rel="noopener noreferrer" target="_blank">
+              <b>view live {">"}</b>
+            </a>
           </p>
           <ul>
             <li>
@@ -40,11 +38,11 @@ const ProjectTemplate = ({
     </div>
     <div className="hero-img">{<HeroImg />}</div>
 
-    <div className="project-goal">
+    <div className="project-goal mt-5">
       <h1>Project Goal</h1>
       <p>{projGoal}</p>
     </div>
-    <div className="tech-stack-wrapper">
+    <div className="tech-stack-wrapper mt-5">
       <div className="tech-stacks">
         <ul>
           {projectStack.map((data, idx) => (
@@ -57,7 +55,12 @@ const ProjectTemplate = ({
         <p>{techStackDescription}</p>
       </div>
     </div>
-    <div className="images-wrapper">
+    <div className="challenges mt-5">
+      <h1>Challanges and thought process</h1>
+      <p>{challenges}</p>
+    </div>
+
+    <div className="images-wrapper mt-5">
       <div className="img-left">
         <div className="image-one">{<ImgOne />}</div>
         <div className="image-two">{<ImgTwo />}</div>
@@ -65,12 +68,7 @@ const ProjectTemplate = ({
       <div className="image-three">{<ImgThree />}</div>
     </div>
 
-    <div className="challenges">
-      <h1>Challanges and thought process</h1>
-      <p>{challenges}</p>
-    </div>
-
-    <div className="lessons-learned">
+    <div className="lessons-learned mt-5">
       <h1>Lessons learned</h1>
       <p>{lessonsLearned}</p>
     </div>
