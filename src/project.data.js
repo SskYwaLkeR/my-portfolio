@@ -33,7 +33,8 @@ export const Ecomm = {
 export const AdoptPet = {
   title: `Adopt animal`,
   description: `Adopt animal is a react application where user can adopt pets. It was a follow along project when I was
-  learning the new React hooks concepts. I learnt a lot while building this project`,
+  learning the new React hooks concepts. Adopt animal allows user to adopt pets available in their region. It uses pets api
+  to find available pet in the region selected by user. `,
   projectStack: [
     { stack: `react`, id: `s1` },
     { stack: `SCSS`, id: `s2` },
