@@ -63,7 +63,7 @@ export const Monsters = {
   improve my understanding of react and managing data sets. In this project I utlized Robohash and JsonPlaceHolder API to 
   gather the monsters data and render this data based on user's input.`,
   projectStack: [
-    { stack: `react`, id: `s1` },
+    { stack: `React`, id: `s1` },
     { stack: `CSS`, id: `s2` },
   ],
   images: {
