@@ -33,12 +33,12 @@ export const Ecomm = {
 export const AdoptPet = {
   title: `Adopt animal`,
   description: `Adopt animal is a react application where user can adopt pets. It was a follow along project when I was
-  learning the new React hooks concepts. Adopt animal allows user to adopt pets available in their region. It uses pets api
-  to find available pet in the region selected by user. `,
+  learning the new React hooks concepts. This project utlizes pet API to gather pets data available in the region selected 
+  by the user.  `,
   projectStack: [
     { stack: `react`, id: `s1` },
-    { stack: `SCSS`, id: `s2` },
-    { stack: `Heroku`, id: `s3` },
+    { stack: `Reach Router`, id: `s2` },
+    { stack: `Parcel`, id: `s3` },
   ],
   images: {
     HeroImg: HeroImg,
@@ -46,13 +46,13 @@ export const AdoptPet = {
     ImgTwo: HeroImg,
     ImgThree: HeroImg,
   },
-  projGoal: `The motivation behind this app was to get good understanding of react concepts`,
-  challenges: `The First Challenge that I ran into was to structure the codebase. All the  components that I built, soon  became like pieces of puzzle and I realized
-  how important it is to structure the code base properly. Also as the development continued managing state of application became tougher and tougher
-  and to overcome this, I used redux .`,
-  lessonsLearned: `I can talk all day explaining all the lessons I learned while building this project, but the most important one was my newfound understanding
-  of Redux, codebase management, git, state management and using memoization to cache some data to improve performance of app `,
+  projGoal: `The main purpose for this app was to improve my understanding of react hooks and APIs in genereal, I spend
+  good amount of time making sure that none of the coding best practices taught during the project left untouched.`,
+  challenges: `Even though it was follow along project I had few doubts because of the usage of new APIs (e.g static getDerievedStateFromError) which I immediately cleared by referring to its documentation.`,
+  lessonsLearned: `Apart from react hooks concepts I also came to know about various coding best practices (taught by Brian, software developer at Microsoft) that industry uses, like 
+  how to use linter rules to catch bugs related with react and accessiblity. I also learnt concepts of error handelling in react application through react error boundaries.`,
 
-  techStackDescription: `I choose React because for an app like e-commerce, where user experience matters the most, React made more sense. SCSS was obvious choice
-  because its syntactically similar to CSS and encourage proper nesting of rules. Heroku was chosed because of its reliability .   `,
+  techStackDescription: `React was obvious because I wanted to learn react hooks, as they offer more expressive way to write
+  code and share functionality between components. Reach router was chosen because of the accessiblity feature it offer
+  right out of the box. And parcel to minify the complexity bundeling packages .`,
 }
