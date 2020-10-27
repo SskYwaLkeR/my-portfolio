@@ -12,6 +12,7 @@ const ProjectTemplate = ({
   techStackDescription,
   challenges,
   lessonsLearned,
+  note,
   images: { HeroImg, ImgOne, ImgTwo, ImgThree },
 }) => (
   <div className="project-wrapper">
@@ -72,6 +73,13 @@ const ProjectTemplate = ({
       <h1>Lessons learned</h1>
       <p>{lessonsLearned}</p>
     </div>
+    {note ? (
+      <div>
+        <blockquote>
+          <p>{note}</p>
+        </blockquote>
+      </div>
+    ) : null}
     <Connect />
   </div>
 )

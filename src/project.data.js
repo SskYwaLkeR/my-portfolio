@@ -56,6 +56,12 @@ export const AdoptPet = {
   code and share functionality between components. Reach router was chosen because of the accessiblity feature it offer
   right out of the box. And parcel to minify the complexity bundeling packages .`,
   url: `https://adopt-anhimals.netlify.app/`,
+  note: `
+   Hi, I realised after hosting this site that all the APIs that I'm using
+   is hosted over http while this project is hosted over https, so in order to view
+  this project properly you need to allow insecure content for adopt animal, in your browser setting . I will update the api's
+  as soon as they get hosted over https but for now this is the only possible workaround  😅.
+`,
 }
 
 export const Monsters = {
