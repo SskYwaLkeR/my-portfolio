@@ -131,3 +131,16 @@ body::-webkit-scrollbar-thumb {
   background: black;
   border-radius: 30px;
 }
+/* 
+body {
+  background-color: #1a202c;
+  color: #d3d3d3;
+}
+
+body a {
+  color: #cfcfcf;
+}
+
+body img {
+  display: none;
+} */
