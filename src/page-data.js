@@ -84,7 +84,7 @@ export const ProjectsData = [
   },
   {
     img: ProjectOne,
-    title: `Adopt pet`,
+    title: `Adopt Animal`,
     description: `A portal built with react where user can  adopt abandoned pets`,
     key: `p3`,
     url: `/adopt-animal`,
