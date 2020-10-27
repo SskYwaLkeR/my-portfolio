@@ -55,6 +55,7 @@ export const AdoptPet = {
   techStackDescription: `React was obvious because I wanted to learn react hooks, as they offer more expressive way to write
   code and share functionality between components. Reach router was chosen because of the accessiblity feature it offer
   right out of the box. And parcel to minify the complexity bundeling packages .`,
+  url: ``,
 }
 
 export const Monsters = {
@@ -83,6 +84,7 @@ export const Monsters = {
 
   techStackDescription: `I used react because I wanted to implement basics of what I learnt in react. And I used CSS over
    SCSS because the application was very small and adding an overhead of extra dependency wasn't justifying .`,
+  url: `https://monster-app.netlify.app/`,
 }
 
 export const Saraha = {
@@ -116,4 +118,5 @@ export const Saraha = {
   techStackDescription: `I choose express over fastify and any other node frameworks because for this application I wanted simplicity and 
   speed was not the factor and express for me is very simple to configure and use. Heroku was choosen because of its reliability. And MongoDB was 
   mainly choosen because  it is document database and allows storing and retrieving data in efficient way . `,
+  url: `http://suraha.herokuapp.com/`,
 }
