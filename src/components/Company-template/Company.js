@@ -14,21 +14,12 @@ const Company = ({
 }) => (
   <div className="company-wrapper">
     <div className="company-intro">
-      <StaticComponent
-        title={`Title`}
-        description={`Lorem ipsum dolor, sit amet consectetur adipisicing elit. A
-         necessitatibus laborum minima vitae quas. Soluta voluptates, possimus
-         aperiam in eum tempora enim non saepe quas quia sit deleniti quibusdam
-         ullam.`}
-      />
+      <StaticComponent title={title} description={companyIntro} />
     </div>
     <div className="goal-internship">
       <StaticComponent
         title={`Goal of internship`}
-        description={`Lorem ipsum dolor, sit amet consectetur adipisicing elit. A
-         necessitatibus laborum minima vitae quas. Soluta voluptates, possimus
-         aperiam in eum tempora enim non saepe quas quia sit deleniti quibusdam
-         ullam.`}
+        description={internshipGoal}
       />
     </div>
     <div className="company-stack-container">
@@ -40,31 +31,16 @@ const Company = ({
 
       <div className="personal-challenges">
         <StaticComponent
-          title={`Personal challenges`}
-          description={`Lorem ipsum dolor, sit amet consectetur adipisicing elit. A
-         necessitatibus laborum minima vitae quas. Soluta voluptates, possimus
-         aperiam in eum tempora enim non saepe quas quia sit deleniti quibusdam
-         ullam.`}
+          title={`Challeneges and growth`}
+          description={challenges}
         />
       </div>
     </div>
     <div className="my-contribution">
-      <StaticComponent
-        title={`My contribution`}
-        description={`Lorem ipsum dolor, sit amet consectetur adipisicing elit. A
-         necessitatibus laborum minima vitae quas. Soluta voluptates, possimus
-         aperiam in eum tempora enim non saepe quas quia sit deleniti quibusdam
-         ullam.`}
-      />
+      <StaticComponent title={`My contribution`} description={contribution} />
     </div>
     <div className="overview">
-      <StaticComponent
-        title={`Overview`}
-        description={`Lorem ipsum dolor, sit amet consectetur adipisicing elit. A
-         necessitatibus laborum minima vitae quas. Soluta voluptates, possimus
-         aperiam in eum tempora enim non saepe quas quia sit deleniti quibusdam
-         ullam.`}
-      />
+      <StaticComponent title={`Overview`} description={overview} />
     </div>
 
     <Connect />
