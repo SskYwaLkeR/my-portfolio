@@ -61,10 +61,11 @@ export const Monsters = {
   title: `Monsters`,
   description: `Monsters is a project I put together after learning basics of react. This application was perfect way to 
   improve my understanding of react and managing data sets. In this project I utlized Robohash and JsonPlaceHolder API to 
-  gather the monsters data and render this data based on user's input.`,
+  gather the monsters data and rendered those data based on user's input.`,
   projectStack: [
     { stack: `React`, id: `s1` },
     { stack: `CSS`, id: `s2` },
+    { stack: `Netlify`, id: `s3` },
   ],
   images: {
     HeroImg: HeroImg,
@@ -82,4 +83,37 @@ export const Monsters = {
 
   techStackDescription: `I used react because I wanted to implement basics of what I learnt in react. And I used CSS over
    SCSS because the application was very small and adding an overhead of extra dependency wasn't justifying .`,
+}
+
+export const Saraha = {
+  title: `Saraha`,
+  description: `Saraha is a web application I built after learning the fundamentals of node and mongodb. This application
+  was perfect way to improve my understanding of working with RESTful APIs and managing user data in node.  With saraha
+  user can send anonymous message to another users. Saraha can be used by a firm to take feedbacks from their employees were username
+  of sender is not so important .`,
+  projectStack: [
+    { stack: `Node.js`, id: `s1` },
+    { stack: `Express`, id: `s2` },
+    { stack: `MonogoDB`, id: `s3` },
+  ],
+  images: {
+    HeroImg: HeroImg,
+    ImgOne: HeroImg,
+    ImgTwo: HeroImg,
+    ImgThree: HeroImg,
+  },
+  projGoal: `The main motivation behind this app was to improve my comprehension of node.js and REST APIs in general. Beside this I also 
+  wanted to build a fun project which's usefull to any organisation and simple to use.
+  `,
+  challenges: `As the project was small I did not have many problems, but I remember I was getting same image for all the monsters
+  at first because I didnt give unique strings in the parameters which is required by the RoboHash API, apart from that I did not had
+  any issue while doing this project`,
+  lessonsLearned: `I learnt a lot of thing while building this application , the most exciting one was its deployment 
+  part as it was my first application deployed on cloud , I came to know about heroku cli and hosting a database on cloud. I also learnt about http methods, and user authentication in a node application 
+  and learnt concepts of database management from creating schemas to storing data into it, and  understood concepts of RESTful APIs . 
+  `,
+
+  techStackDescription: `I choose express over fastify and any other node frameworks because for this application I wanted simplicity and 
+  speed was not the factor and express for me is very simple to configure and use. Heroku was choosen because of its reliability. And MongoDB was 
+  mainly choosen because  it is document database and allows storing and retrieving data in efficient way . `,
 }
