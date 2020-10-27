@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "gatsby"
 import "./projects.styles.css"
 import { Projects as proj, ProjectsData } from "../../page-data.js"
 import StaticComponent from "../Container/StaticComponent.js"
@@ -11,7 +12,7 @@ const Projects = () => (
         <div className="proj-img">{<data.img />}</div>
         <h2>{data.title}</h2>
         <p>{data.description}</p>
-        <p>View Project {">"} </p>
+        <Link to={data.url}> View Project {">"}</Link>
       </div>
     ))}
   </div>

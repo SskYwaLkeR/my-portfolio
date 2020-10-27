@@ -80,13 +80,20 @@ export const ProjectsData = [
     title: `Monsters`,
     description: `A react application where user can search for monsters`,
     key: `p2`,
-    url: `/e-comm`,
+    url: `/monsters`,
   },
   {
     img: ProjectOne,
     title: `Adopt pet`,
     description: `A portal built with react where user can  adopt abandoned pets`,
     key: `p3`,
-    url: `/e-comm`,
+    url: `/adopt-animal`,
+  },
+  {
+    img: ProjectOne,
+    title: `Saraha`,
+    description: `A portal built with react where user can  adopt abandoned pets`,
+    key: `p3`,
+    url: `/saraha`,
   },
 ]
