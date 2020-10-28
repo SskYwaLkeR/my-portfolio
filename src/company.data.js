@@ -28,30 +28,23 @@ export const we18Data = {
 
 export const tuutr = {
   title: `Tuutr`,
-  companyIntro: `Tuutr is a ed-tech startup company based in Bangalore, India. Working at tuutr was completely
-  differrent way of thinking I had an amazing experience working 
-  in Tuutr, I worked closely with a designer to build frontend for our online classroom. 
-. 
+  companyIntro: `Tuutr is a ed-tech startup company based in Bangalore, India. I worked closely with a designer to build frontend for our online classroom. 
 
   `,
-  companyIntro2: `Working at Tuutr was challenging as well as quite learning experience for me.`,
-  internshipGoal: `Prior to internship I had set some goal for myself so that I had clear objectives on what I wanted to improve
-      on and accomplish. Of theses goals my main priority was to improve my react and web development skill. My other
-      specific goal was to improve my ability as a member of team.`,
-  challenges: `I was in fear before joining 
-  tuutr : How will I be able to contribute I had no working knowledg which is primary framework There were times I encountered some difficulties but this internship was most challenging and most
-       rewarding  experience for me. Travelling to different city and experiencing a completely new team taught 
-       me so much about myself and about the profession I want to be .`,
+  companyIntro2: `Working at Tuutr was different experience for me, as we  were small team of just
+  three people. I learnt a lot here from taking ownership of work, to work with integrity as an individual developer in a largescale project. `,
+  internshipGoal: `Just like my previous internship , I set my own objective before working at Tuutr, my main goal
+  was to improve as an engineer, as well as improve my interpersonal skills.`,
+  challenges: `I was in fear before joining tuutr that how will I be able to contribute since I had no experience of working with Vue.js which 
+  was primary frontend framework of Tuutr.`,
 
-  challenges2: ` At we18, I learned a ton about React, Material design, Git,
-        but I also learned so much about how to be a developer with integrity and a valuable member 
-        of a team. Working alongside extremely talented developers inspired me and pushed my bounds of 
-        what I believed any developer can do`,
+  challenges2: `At Tuutr I learned so much about vue and in general more about frontend development, I pushed my limit from
+  just a react developer to be a good understanding and responsible engineer.`,
 
-  contribution: `I spent my majority of work building reusable components in react. I worked alongside other
-      developers to implement solutions based on client requirements and modified code to fix bugs.`,
+  contribution: `I spent my majority of work building components in vue, mostly for our classroom page which was very
+  complex as it handles presentation of instructors, live lectures, chat room and other complicated aspects of an online classroom.`,
 
-  overview: `As it was my first internship , my experience with We18 will be something I will remember forever, and
-      I want to thank everyone at We18 for giving me such an amazing experience. I am so grateful to Narendra Sisodiya
-      for the mentorship he provide me, and the react concepts he taught me. `,
+  overview: `I learnt so much at Tuutr that I will carry through the rest of my life, specially the fact that as a developer I dont have to be an expert in everything in order to build something. We can learn quickly on the
+  fly and just accomplish the task. Thanks to the incredible mentorship of Haider (founder), he constantly helped me with my
+  doubts over vue and programming in general and also improved me as a person.`,
 }
