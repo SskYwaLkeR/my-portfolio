@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "gatsby"
 import "./experience.styles.css"
 import { Experience as exp, TimeLine } from "../../page-data.js"
 import StaticComponent from "../Container/StaticComponent.js"
@@ -14,6 +15,7 @@ const Experience = () => (
             <h2>{data.title}</h2>
             <span>{data.role}</span>
             <p>{data.description}</p>
+            {data.url.length ? <Link to={data.url}> Read story</Link> : null}
           </div>
         </div>
       ))}

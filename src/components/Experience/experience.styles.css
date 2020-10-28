@@ -56,10 +56,11 @@
   width: 95%;
   padding: 0 15px;
   /* color: #666; */
+  margin-bottom: 20px;
 }
 
 .timeline-content h2 {
-  margin-top: 5px;
+  margin-top: 25px;
   margin-bottom: 5px;
   font-weight: 500;
 }
@@ -75,6 +76,15 @@
   line-height: 1.5em;
   word-spacing: 1px;
   color: #595959;
+  margin-top: 20px;
+}
+
+.timeline-content a {
+  font-size: 0.8rem;
+  line-height: 1.5em;
+  word-spacing: 1px;
+  display: block;
+  margin-top: -10px;
 }
 
 @media screen and (max-width: 768px) {

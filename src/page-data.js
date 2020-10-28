@@ -47,23 +47,28 @@ export const TimeLine = [
   {
     title: `We18.in`,
     role: `Front-end developer`,
-    description: `We18.in is a service based startup company in Pune. Read more about my experience as an intern at We18`,
+    description: `We18.in is a software consultancy agency based  in Pune. It was my first internship
+    and I had amazing experience working at we18. `,
     class: `timeline-block-right`,
     key: `1a`,
+    url: `/we18`,
   },
   {
     title: `Tuutr.com`,
     role: `Front-end developer`,
-    description: `Tuutr is a ed-tech startup company at Bangalore. Read more about my experience as an intern at Tuutr .`,
+    description: `Tuutr is an ed-tech startup company at Bangalore. Working at Tuutr was
+    challenging as well as a great learning experience for me`,
     class: `timeline-block-left`,
     key: `2b`,
+    url: `/tuutr`,
   },
   {
-    title: `Still in search for 👀`,
-    role: `Software developer role`,
+    title: `Looking for a new role 🔍`,
+    role: `Software developer`,
     description: ``,
     class: `timeline-block-right`,
     key: `3c`,
+    url: ``,
   },
 ]
 
