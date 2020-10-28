@@ -52,9 +52,10 @@ const IndexPage = () => (
             <div className="line"></div>
 
             <div className="social-icons">
-              <GithubLogo />
               <InstagramLogo />
+
               <TwitterLogo />
+              <GithubLogo />
             </div>
           </div>
           <h2>Hi, I'm Hrishikesh.</h2>
