@@ -17,13 +17,14 @@
 .socials {
   display: flex;
   align-items: center;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 }
 
 .socials .line {
-  width: 40%;
+  opacity: 0;
   height: 0.12rem;
   background-color: gray;
+  animation: stretchX forwards 1s;
 }
 
 .social-icons > * {
@@ -91,6 +92,17 @@
 
 h2 span {
   color: #826f8b;
+}
+
+@keyframes stretchX {
+  0% {
+    width: 0%;
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+    width: 40%;
+  }
 }
 
 @media screen and (max-width: 1026px) {
