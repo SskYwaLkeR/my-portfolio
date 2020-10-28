@@ -29,9 +29,21 @@ const Header = () => {
             <Link to="/">Contact</Link>
           </div>
         </div>
-        <button aria-label="Ham burger" onClick={() => openNav()}>
-          <Hamburger />
-        </button>
+        <div>
+          {/* toggle dark mode  */}
+          {/* <input type="checkbox" id="toggle-mode-cb" />
+
+          <div id="mode-wrapper">
+            <label id="toggle-mode" htmlFor="toggle-mode-cb">
+              <span className="toggle-border">
+                <span className="toggle-indicator"></span>
+              </span>
+            </label>
+          </div> */}
+          <button aria-label="Ham burger" onClick={() => openNav()}>
+            <Hamburger />
+          </button>
+        </div>
       </div>
     </header>
   )
