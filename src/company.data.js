@@ -1,8 +1,7 @@
 export const we18Data = {
   title: `We18.in`,
   companyIntro: `Last year 2019 I had the amazing opportunity to work with We18, a software consultancy agency in Pune, India.  I work closely with  Senior Developers to build multiple client facing products. It was an amazing experience
-  as it was my first internship and I was as nervous as nervous gets. Before my internship I had so many question and worries: How will I handle
-  the work, what will my seniors be like, but I overcome those and learned so many things about software development.
+  as it was my first internship and I was as nervous as nervous gets.
    `,
   companyIntro2: `Throught the internship I was pushed and challenged in every aspect of my skills and walked away as
   much refined developer.`,
@@ -13,8 +12,7 @@ export const we18Data = {
    rewarding  experience for me. Travelling to different city and experiencing a completely new team taught 
    me so much about myself and about the profession I want to be .`,
 
-  challenges2: ` At we18, I learned a ton about React, Material design, Git,
-    but I also learned so much about how to be a developer with integrity and a valuable member 
+  challenges2: ` At We18, I learned a ton about React, Material design, Git, and about software development in general. I also learned so much about how to be a developer with integrity and a valuable member 
     of a team. Working alongside extremely talented developers inspired me and pushed my bounds of 
     what I believed any developer can do`,
 
@@ -38,7 +36,7 @@ export const tuutr = {
   challenges: `I was in fear before joining tuutr that how will I be able to contribute since I had no experience of working with Vue.js which 
   was primary frontend framework of Tuutr.`,
 
-  challenges2: `At Tuutr I learned so much about vue and in general more about frontend development, I pushed my limit from
+  challenges2: `Here I learned so much about vue in a very quick succession, I pushed my limit from
   just a react developer to be a good understanding and responsible engineer.`,
 
   contribution: `I spent my majority of work building components in vue, mostly for our classroom page which was very
