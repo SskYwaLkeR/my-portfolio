@@ -97,7 +97,7 @@ export const Saraha = {
   title: `Saraha`,
   description: `Saraha is a web application I built after learning the fundamentals of node and mongodb. This application
   was perfect way to improve my understanding of working with RESTful APIs and managing user data in node.  With saraha
-  user can send anonymous message to another users. Saraha can be used by a firm to take feedbacks from their employees were username
+  user can send anonymous message to another users. And it can be used by a firm to take feedbacks from their employees were username
   of sender is not so important .`,
   projectStack: [
     { stack: `Node.js`, id: `s1` },
@@ -113,9 +113,9 @@ export const Saraha = {
   projGoal: `The main motivation behind this app was to improve my comprehension of node.js and REST APIs in general. Beside this I also 
   wanted to build a fun project which's usefull to any organisation and simple to use.
   `,
-  challenges: `As the project was small I did not have many problems, but I remember I was getting same image for all the monsters
-  at first because I didnt give unique strings in the parameters which is required by the RoboHash API, apart from that I did not had
-  any issue while doing this project`,
+  challenges: `Handeling user's image upload was a bit tricky part for me, also managing user session across
+   the application was something that I encountered for the first time.
+  `,
   lessonsLearned: `I learnt a lot of thing while building this application , the most exciting one was its deployment 
   part as it was my first application deployed on cloud , I came to know about heroku cli and hosting a database on cloud. I also learnt about http methods, and user authentication in a node application 
   and learnt concepts of database management from creating schemas to storing data into it, and  understood concepts of RESTful APIs . 
