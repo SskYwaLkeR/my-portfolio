@@ -1,5 +1,5 @@
 import ProjectOne from "./components/Ecomm.image"
-import EcommThumbnail from "./components/Optimised-images/e-comm-thumbnail.image.js"
+import EcommThumbnail from "./components/Optimised-images/e-comm/e-comm-thumbnail.image.js"
 
 export const AboutMe = {
   title: `About Me`,

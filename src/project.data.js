@@ -1,5 +1,5 @@
 import HeroImg from "./components/Ecomm.image.js"
-import EcommThumbnail from "./components/Optimised-images/e-comm-thumbnail.image.js"
+import EcommThumbnail from "./components/Optimised-images/e-comm/e-comm-thumbnail.image.js"
 
 export const Ecomm = {
   title: `E-comm`,
