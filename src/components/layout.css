@@ -87,6 +87,12 @@ p {
   animation-delay: 0.25s;
 }
 
+button {
+  opacity: 0;
+  animation: slideUp ease-in-out forwards 0.5s;
+  animation-delay: 0.3s;
+}
+
 h3 {
   font-weight: bold;
   text-rendering: optimizeLegibility;
