@@ -1,4 +1,3 @@
-import HeroImg from "./components/Ecomm.image.js"
 import EcommMainImg from "./components/Optimised-images/e-comm/e-comm-main.image.js"
 import EcommSecondImg from "./components/Optimised-images/e-comm/e-comm-second.image.js"
 import EcommThirdImg from "./components/Optimised-images/e-comm/e-comm-third.image.js"
@@ -12,6 +11,11 @@ import SurahaMainImg from "./components/Optimised-images/Suraha/suraha-main.imag
 import SurahaSecondImg from "./components/Optimised-images/Suraha/suraha-second.image.js"
 import SurahaThirdImg from "./components/Optimised-images/Suraha/suraha-third.image.js"
 import SurahaFourthImg from "./components/Optimised-images/Suraha/suraha-fourth.image.js"
+
+import AdoptAnimalMainImg from "./components/Optimised-images/adopt-animals/adopt-animals-main.image.js"
+import AdoptAnimalSecondImg from "./components/Optimised-images/adopt-animals/adopt-animals-second.image.js"
+import AdoptAnimalThirdImg from "./components/Optimised-images/adopt-animals/adopt-animals-third.image.js"
+import AdoptAnimalFourthImg from "./components/Optimised-images/adopt-animals/adopt-animals-fourth.image.js"
 
 export const Ecomm = {
   title: `E-comm`,
@@ -54,10 +58,10 @@ export const AdoptPet = {
     { stack: `Parcel`, id: `s3` },
   ],
   images: {
-    HeroImg: HeroImg,
-    ImgOne: HeroImg,
-    ImgTwo: HeroImg,
-    ImgThree: HeroImg,
+    HeroImg: AdoptAnimalMainImg,
+    ImgOne: AdoptAnimalFourthImg,
+    ImgTwo: AdoptAnimalThirdImg,
+    ImgThree: AdoptAnimalSecondImg,
   },
   projGoal: `The main purpose for this app was to improve my understanding of react hooks and APIs in genereal, I spend
   good amount of time making sure that none of the coding best practices taught during the project left untouched.`,
