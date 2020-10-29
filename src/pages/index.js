@@ -79,12 +79,21 @@ const IndexPage = () => {
             </h2>
             <h2>CS graduate and javascript enthusiast.</h2>
             <div className="btn-group">
-              <button className="resume-btn view-resume-btn">
+              <a
+                href="https://drive.google.com/file/d/1wYtcIlon497reJd1q_S1nvPNFackaaZH/view?usp=sharing"
+                className="resume-btn view-resume-btn"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
                 View Resume
-              </button>
-              <button className="resume-btn download-resume-btn">
+              </a>
+              <a
+                href={`../assets/HrishikeshResume.pdf`}
+                className="resume-btn download-resume-btn"
+                download
+              >
                 Download Resume
-              </button>
+              </a>
             </div>
           </div>
 
