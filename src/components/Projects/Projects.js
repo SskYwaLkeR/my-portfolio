@@ -9,10 +9,14 @@ const Projects = () => (
 
     {ProjectsData.map(data => (
       <div className="project-display" key={data.key}>
-        <div className="proj-img">{<data.img />}</div>
-        <h2>{data.title}</h2>
-        <p>{data.description}</p>
-        <Link to={data.url}> View Project {">"}</Link>
+        <Link to={data.url}>
+          <div className="proj-img">{<data.img />}</div>
+          <h2>{data.title}</h2>
+          <p>{data.description}</p>
+        </Link>
+        <Link to={data.url} className="view-proj">
+          View Project {">"}
+        </Link>
       </div>
     ))}
   </div>

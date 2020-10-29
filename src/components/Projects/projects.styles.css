@@ -15,9 +15,28 @@
   font-size: 1.4rem;
 }
 
+.project-display a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.view-proj {
+  transition: all ease-in-out 0.3s;
+}
+
 .proj-img {
   background-position: center;
   margin-bottom: 2.25rem;
+  transition: all ease-in-out 0.3s;
+}
+
+.project-display:hover .proj-img {
+  cursor: pointer;
+  transform: scale(1.02);
+}
+
+.project-display:hover .view-proj {
+  border-bottom: solid 2px #1f1f1f;
 }
 
 @media only screen and (max-width: 480px) {
