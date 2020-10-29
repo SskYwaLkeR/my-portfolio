@@ -7,7 +7,7 @@ const SurahaThumbnail = () => {
     query {
       placeholderImage: file(relativePath: { eq: "suraha-thumbnail.png" }) {
         childImageSharp {
-          fluid(maxWidth: 700) {
+          fluid(maxWidth: 300) {
             ...GatsbyImageSharpFluid
           }
         }

@@ -8,6 +8,8 @@ import MonstersMainImg from "./components/Optimised-images/monsters/monsters-mai
 import MonstersSecondImg from "./components/Optimised-images/monsters/monster-second.image.js"
 import MonstersThirdImg from "./components/Optimised-images/monsters/monsters-third.image.js"
 
+import SurahaMainImg from "./components/Optimised-images/Suraha/suraha-main.image.js"
+
 export const Ecomm = {
   title: `E-comm`,
   description: `E-comm is an online e-commerce application built for local shops. The application required a lot of heavy lifting
@@ -113,7 +115,7 @@ export const Saraha = {
     { stack: `MonogoDB`, id: `s3` },
   ],
   images: {
-    HeroImg: HeroImg,
+    HeroImg: SurahaMainImg,
     ImgOne: HeroImg,
     ImgTwo: HeroImg,
     ImgThree: HeroImg,
