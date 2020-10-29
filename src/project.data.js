@@ -24,8 +24,9 @@ export const Ecomm = {
   simply allows user to sign in using email or google account. Phase 2  introduces user to the products
   . Phase 3 was more complex, as it includes full shop and cart pages as well as the logic that goes behind it.`,
   url: `https://shopping-app-project.herokuapp.com/`,
+  githubUrl: `https://github.com/SskYwaLkeR/e-comm`,
   projectStack: [
-    { stack: `react`, id: `s1` },
+    { stack: `React`, id: `s1` },
     { stack: `SCSS`, id: `s2` },
     { stack: `Heroku`, id: `s3` },
   ],
@@ -73,6 +74,8 @@ export const AdoptPet = {
   code and share functionality between components. Reach router was chosen because of the accessiblity feature it offer
   right out of the box. And parcel to minify the complexity bundeling packages .`,
   url: `https://adopt-anhimals.netlify.app/`,
+  githubUrl: `https://github.com/SskYwaLkeR/Adopt-animal`,
+
   note: `
    Hi, I realised after hosting this site that all the APIs that I'm using
    is hosted over http while this project is hosted over https, so in order to view
@@ -108,6 +111,7 @@ export const Monsters = {
   techStackDescription: `I used react because I wanted to implement basics of what I learnt in react. And I used CSS over
    SCSS because the application was very small and adding an overhead of extra dependency wasn't justifying .`,
   url: `https://monster-app.netlify.app/`,
+  githubUrl: `https://github.com/SskYwaLkeR/monsters`,
 }
 
 export const Saraha = {
@@ -142,4 +146,5 @@ export const Saraha = {
   speed was not the factor and express for me is very simple to configure and use. Heroku was choosen because of its reliability. And MongoDB was 
   mainly choosen because  it is document database and allows storing and retrieving data in efficient way . `,
   url: `http://suraha.herokuapp.com/`,
+  githubUrl: `https://github.com/SskYwaLkeR/saraha`,
 }

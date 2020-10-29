@@ -12,6 +12,7 @@ const ProjectTemplate = ({
   techStackDescription,
   challenges,
   lessonsLearned,
+  githubUrl,
   note,
   images: { HeroImg, ImgOne, ImgTwo, ImgThree },
 }) => (
@@ -21,11 +22,15 @@ const ProjectTemplate = ({
         <h1>{title}</h1>
         <p>{description}</p>
         <div className="project-stack">
-          <p>
+          <div className="project-links">
             <a href={url} rel="noopener noreferrer" target="_blank">
-              <b>view live {">"}</b>
+              <b>View live {">"}</b>
             </a>
-          </p>
+            <br />
+            <a href={githubUrl} rel="noopener noreferrer" target="_blank">
+              Gihtub link {">"}
+            </a>
+          </div>
           <ul>
             <li>
               <b>Stack</b>

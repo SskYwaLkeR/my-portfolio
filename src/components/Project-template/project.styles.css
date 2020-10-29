@@ -19,6 +19,23 @@
   justify-content: space-between;
 }
 
+.project-links a {
+  text-decoration: none;
+  color: inherit;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.project-links a:last-child {
+  color: #595959;
+  font-size: 0.9rem;
+}
+
+.project-links a:hover {
+  color: black;
+  border-bottom: solid 2px black;
+}
+
 .project-wrapper h1 {
   margin-bottom: 2rem;
   font-weight: 500;
