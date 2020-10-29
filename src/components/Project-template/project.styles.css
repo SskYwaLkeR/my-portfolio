@@ -83,6 +83,16 @@ li:nth-last-child(-n + 3) {
 .image-three {
   width: 55%;
   align-self: center;
+  box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.1);
+}
+
+.image-one {
+  margin-bottom: 1rem;
+  box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.1);
+}
+
+.image-two {
+  box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.1);
 }
 
 .mt-5 {

@@ -1,5 +1,8 @@
 import HeroImg from "./components/Ecomm.image.js"
 import EcommMainImg from "./components/Optimised-images/e-comm/e-comm-main.image.js"
+import EcommSecondImg from "./components/Optimised-images/e-comm/e-comm-second.image.js"
+import EcommThirdImg from "./components/Optimised-images/e-comm/e-comm-third.image.js"
+import EcommFourthImg from "./components/Optimised-images/e-comm/e-comm-fourth.image.js"
 
 export const Ecomm = {
   title: `E-comm`,
@@ -15,9 +18,9 @@ export const Ecomm = {
   ],
   images: {
     HeroImg: EcommMainImg,
-    ImgOne: HeroImg,
-    ImgTwo: HeroImg,
-    ImgThree: HeroImg,
+    ImgOne: EcommFourthImg,
+    ImgTwo: EcommThirdImg,
+    ImgThree: EcommSecondImg,
   },
   projGoal: `I wanted to build an app which is compact, scalable,
    as well as an app where I can push myself beyond the basics, so e-commerce seemed perfect app for me to explore all these.`,
