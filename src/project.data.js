@@ -53,7 +53,7 @@ export const AdoptPet = {
   learning the new React hooks concepts. This project utlizes pet API to gather pets data available in the region selected 
   by the user.  `,
   projectStack: [
-    { stack: `react`, id: `s1` },
+    { stack: `React`, id: `s1` },
     { stack: `Reach Router`, id: `s2` },
     { stack: `Parcel`, id: `s3` },
   ],
