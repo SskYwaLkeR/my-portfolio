@@ -1,4 +1,5 @@
 import HeroImg from "./components/Ecomm.image.js"
+import EcommThumbnail from "./components/Optimised-images/e-comm-thumbnail.image.js"
 
 export const Ecomm = {
   title: `E-comm`,
@@ -13,7 +14,7 @@ export const Ecomm = {
     { stack: `Heroku`, id: `s3` },
   ],
   images: {
-    HeroImg: HeroImg,
+    HeroImg: EcommThumbnail,
     ImgOne: HeroImg,
     ImgTwo: HeroImg,
     ImgThree: HeroImg,

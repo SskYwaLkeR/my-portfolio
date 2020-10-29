@@ -1,4 +1,5 @@
 import ProjectOne from "./components/Ecomm.image"
+import EcommThumbnail from "./components/Optimised-images/e-comm-thumbnail.image.js"
 
 export const AboutMe = {
   title: `About Me`,
@@ -74,7 +75,7 @@ export const TimeLine = [
 
 export const ProjectsData = [
   {
-    img: ProjectOne,
+    img: EcommThumbnail,
     title: `E-comm`,
     description: `A scalable e-commerce application built with React and Redux`,
     key: `p1`,
