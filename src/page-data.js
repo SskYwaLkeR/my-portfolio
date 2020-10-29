@@ -28,7 +28,7 @@ export const MySkills = {
 
 export const Experience = {
   title: `Experience`,
-  description: `I've done internships at two different companies in the past. Read more about my internship below.`,
+  description: `I've done internships at two different companies in the past, have a look into my internship experience below.`,
 }
 
 export const Projects = {
