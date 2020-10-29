@@ -4,6 +4,8 @@ import EcommSecondImg from "./components/Optimised-images/e-comm/e-comm-second.i
 import EcommThirdImg from "./components/Optimised-images/e-comm/e-comm-third.image.js"
 import EcommFourthImg from "./components/Optimised-images/e-comm/e-comm-fourth.image.js"
 
+import MonstersMainImg from "./components/Optimised-images/monsters/monsters-main.image.js"
+
 export const Ecomm = {
   title: `E-comm`,
   description: `E-comm is an online e-commerce application built for local shops. The application required a lot of heavy lifting
@@ -79,7 +81,7 @@ export const Monsters = {
     { stack: `Netlify`, id: `s3` },
   ],
   images: {
-    HeroImg: HeroImg,
+    HeroImg: MonstersMainImg,
     ImgOne: HeroImg,
     ImgTwo: HeroImg,
     ImgThree: HeroImg,
