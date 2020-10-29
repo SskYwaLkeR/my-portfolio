@@ -27,9 +27,9 @@ const Company = ({
     </div>
     <div className="company-stack-container">
       <ul className="tech-stacky">
-        <li>React</li>
-        <li>Material UI</li>
-        <li>ANT design</li>
+        {techStack.map(data => (
+          <li key={data.key}>{data.name}</li>
+        ))}
       </ul>
 
       <div className="personal-challenges">

@@ -22,6 +22,11 @@ export const we18Data = {
   overview: `As it was my first internship , my experience with We18 will be something I will remember forever, and
   I want to thank everyone at We18 for giving me such an amazing experience. I am so grateful to Narendra Sisodiya
   for the mentorship he provide me, and the react concepts he taught me. `,
+  techStack: [
+    { name: "React", key: `ts1` },
+    { name: "Material design", key: `ts1` },
+    { name: "ANT design", key: `ts2` },
+  ],
 }
 
 export const tuutr = {
@@ -36,7 +41,7 @@ export const tuutr = {
   challenges: `I was in fear before joining tuutr that how will I be able to contribute since I had no experience of working with Vue.js which 
   was primary frontend framework of Tuutr.`,
 
-  challenges2: `Here I learned so much about vue in a very quick succession, I pushed my limit from
+  challenges2: `Here I learned so much about vue in a quick succession, I pushed my limit from
   just a react developer to be a good understanding and responsible engineer.`,
 
   contribution: `I spent my majority of work building components in vue, mostly for our classroom page which was very
@@ -45,4 +50,10 @@ export const tuutr = {
   overview: `I learnt so much at Tuutr that I will carry through the rest of my life, specially the fact that as a developer I dont have to be an expert in everything in order to build something. We can learn quickly on the
   fly and just accomplish the task. Thanks to the incredible mentorship of Haider (founder), he constantly helped me with my
   doubts over vue and programming in general and also improved me as a person.`,
+
+  techStack: [
+    { name: "Vue", key: `ts1` },
+    { name: "Bootstrap", key: `ts1` },
+    { name: "VueX", key: `ts2` },
+  ],
 }
