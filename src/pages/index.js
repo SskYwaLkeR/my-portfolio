@@ -71,6 +71,7 @@ const IndexPage = () => {
                   href="https://www.instagram.com/hrishi_kesh_rai/"
                   rel="noopener noreferrer"
                   target="_blank"
+                  aria-label="Instagram"
                 >
                   <InstagramLogo />
                 </a>
@@ -78,6 +79,7 @@ const IndexPage = () => {
                   href="https://twitter.com/Hrishikeshrai2"
                   rel="noopener noreferrer"
                   target="_blank"
+                  aria-label="Twitter"
                 >
                   <TwitterLogo />
                 </a>
@@ -85,6 +87,7 @@ const IndexPage = () => {
                   href="https://github.com/SskYwaLkeR"
                   rel="noopener noreferrer"
                   target="_blank"
+                  aria-label="Github"
                 >
                   <GithubLogo />
                 </a>
