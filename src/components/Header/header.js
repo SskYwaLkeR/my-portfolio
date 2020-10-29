@@ -23,10 +23,17 @@ const Header = () => {
             &times;
           </Link>
           <div className="overlay-content">
-            <Link to="/">About</Link>
-            <Link to="/page-2">Services</Link>
-            <Link to="/">Clients</Link>
-            <Link to="/">Contact</Link>
+            <a href="/#about-me">About Me</a>
+            <a href="/#projects">Projects</a>
+            <a href="/#experience">Experience</a>
+            <a
+              href="https://hrishikesh-blogs.netlify.app/"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              Blogs
+            </a>
+            <a href="/#let's-talk">Contact</a>
           </div>
         </div>
         <div>

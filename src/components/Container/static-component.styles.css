@@ -3,6 +3,11 @@
   font-weight: 500;
 }
 
+.static-container a {
+  text-decoration: none;
+  color: inherit;
+}
+
 .static-container {
   margin-top: 4rem;
 }
