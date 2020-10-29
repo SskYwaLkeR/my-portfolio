@@ -5,6 +5,8 @@ import EcommThirdImg from "./components/Optimised-images/e-comm/e-comm-third.ima
 import EcommFourthImg from "./components/Optimised-images/e-comm/e-comm-fourth.image.js"
 
 import MonstersMainImg from "./components/Optimised-images/monsters/monsters-main.image.js"
+import MonstersSecondImg from "./components/Optimised-images/monsters/monster-second.image.js"
+import MonstersThirdImg from "./components/Optimised-images/monsters/monsters-third.image.js"
 
 export const Ecomm = {
   title: `E-comm`,
@@ -82,9 +84,9 @@ export const Monsters = {
   ],
   images: {
     HeroImg: MonstersMainImg,
-    ImgOne: HeroImg,
-    ImgTwo: HeroImg,
-    ImgThree: HeroImg,
+    ImgOne: MonstersSecondImg,
+    ImgTwo: MonstersMainImg,
+    ImgThree: MonstersThirdImg,
   },
   projGoal: `Main purpose of this project was to improve my understanding of React. Beside this, I also wanted to make application which had to be visually pleasing.
    I also spent good amount of time making  sure I am using best practices of react and data manipulation .`,
