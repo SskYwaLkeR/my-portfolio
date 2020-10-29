@@ -85,6 +85,7 @@
   word-spacing: 1px;
   display: block;
   margin-top: -10px;
+  color: inherit;
 }
 
 @media screen and (max-width: 768px) {

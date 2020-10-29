@@ -23,9 +23,7 @@
 .view-proj {
   transition: all ease-in-out 0.3s;
 }
-.view-proj b {
-  font-weight: 500;
-}
+
 .proj-img {
   background-position: center;
   margin-bottom: 2.25rem;
@@ -35,6 +33,7 @@
 .project-display:hover .proj-img {
   cursor: pointer;
   transform: scale(1.02);
+  box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.1);
 }
 
 .project-display:hover .view-proj {
