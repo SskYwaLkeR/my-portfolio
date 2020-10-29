@@ -15,7 +15,7 @@ const Projects = () => (
           <p>{data.description}</p>
         </Link>
         <Link to={data.url} className="view-proj">
-          View Project {">"}
+          <b> View Project {">"}</b>
         </Link>
       </div>
     ))}
