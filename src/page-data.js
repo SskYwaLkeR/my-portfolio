@@ -1,5 +1,6 @@
 import ProjectOne from "./components/Ecomm.image"
 import EcommThumbnail from "./components/Optimised-images/e-comm/e-comm-thumbnail.image.js"
+import MonstersThumbnail from "./components/Optimised-images/monsters/monsters-thumbnail.image.js"
 
 export const AboutMe = {
   title: `About Me`,
@@ -82,7 +83,7 @@ export const ProjectsData = [
     url: `/e-comm`,
   },
   {
-    img: ProjectOne,
+    img: MonstersThumbnail,
     title: `Monsters`,
     description: `A react application where user can search for monsters`,
     key: `p2`,
