@@ -31,7 +31,7 @@ const IndexPage = () => {
       " Hello There, this website is built with ❤ by Hrishikesh rai %c ",
       style
     )
-  }, [])
+  })
 
   return (
     <Layout>
