@@ -1,8 +1,11 @@
 .connect-wrapper a {
   text-decoration: none;
   color: inherit;
-  margin-top: -20px;
-  display: block;
+  transition: all ease-in-out 0.3;
+}
+
+.connect-wrapper a:hover {
+  border-bottom: solid 2px hsla(0, 0%, 0%, 0.8);
 }
 
 .connect-wrapper {
