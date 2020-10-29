@@ -1,10 +1,10 @@
-.connect-wrapper a {
+.connect-wrapper .connect-email {
   text-decoration: none;
   color: inherit;
   transition: all ease-in-out 0.3;
 }
 
-.connect-wrapper a:hover {
+.connect-wrapper .connect-email:hover {
   border-bottom: solid 2px hsla(0, 0%, 0%, 0.8);
 }
 

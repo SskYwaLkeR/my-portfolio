@@ -4,7 +4,14 @@ const Instagram = () => (
   <div className="instagram-wrapper">
     <div className="insta-text">
       <h2>I sometime design cool stuff on instagram</h2>
-      <p>see more {">"}</p>
+      <a
+        href="https://www.instagram.com/hrishi_kesh_rai/"
+        rel="noopener noreferrer"
+        target="_blank"
+        aria-label="Instagram"
+      >
+        <b> See more {">"}</b>
+      </a>
     </div>
 
     <div className="insta-img-container">
