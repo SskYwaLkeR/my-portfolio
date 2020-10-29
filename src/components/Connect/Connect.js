@@ -9,7 +9,9 @@ const Connect = () => (
       description={LetsTalk.description}
     />
 
-    <a href="mailto:hkrai39@gmail.com">hkrai39@gmail.com</a>
+    <a href="mailto:hkrai39@gmail.com">
+      <b>hkrai39@gmail.com</b>
+    </a>
   </div>
 )
 
