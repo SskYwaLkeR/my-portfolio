@@ -1,6 +1,7 @@
 import ProjectOne from "./components/Ecomm.image"
 import EcommThumbnail from "./components/Optimised-images/e-comm/e-comm-thumbnail.image.js"
 import MonstersThumbnail from "./components/Optimised-images/monsters/monsters-thumbnail.image.js"
+import SurahaThumbnail from "./components/Optimised-images/Suraha/suraha-thumbnail.image.js"
 
 export const AboutMe = {
   title: `About Me`,
@@ -97,7 +98,7 @@ export const ProjectsData = [
     url: `/adopt-animal`,
   },
   {
-    img: ProjectOne,
+    img: SurahaThumbnail,
     title: `Saraha`,
     description: `A portal built with react where user can  adopt abandoned pets`,
     key: `p4`,
