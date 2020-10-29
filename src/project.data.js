@@ -71,8 +71,8 @@ export const AdoptPet = {
   how to use linter rules to catch bugs related with react and accessiblity. I also learnt concepts of error handelling in react application through react error boundaries.`,
 
   techStackDescription: `React was obvious because I wanted to learn react hooks, as they offer more expressive way to write
-  code and share functionality between components. Reach router was chosen because of the accessiblity feature it offer
-  right out of the box. And parcel to minify the complexity bundeling packages .`,
+  code. Reach router was chosen because of the accessiblity feature it offer
+  right out of the box. And parcel to minify the complexity of bundeling packages .`,
   url: `https://adopt-anhimals.netlify.app/`,
   githubUrl: `https://github.com/SskYwaLkeR/Adopt-animal`,
 
