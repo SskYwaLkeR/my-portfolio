@@ -31,6 +31,18 @@
   margin-left: 1.2rem;
 }
 
+.social-icons a:hover:first-child {
+  filter: brightness(0.6) sepia(1) hue-rotate(290deg) saturate(5);
+}
+
+.social-icons a:hover:nth-child(2) {
+  filter: brightness(0.6) sepia(1) hue-rotate(190deg) saturate(5);
+}
+
+.social-icons a:hover:nth-last-child(1) {
+  filter: brightness(0.2) sepia(1) hue-rotate(100deg) saturate(5);
+}
+
 .intro h2 {
   letter-spacing: 0.1rem;
   font-weight: 500;

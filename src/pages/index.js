@@ -67,10 +67,27 @@ const IndexPage = () => {
               <div className="line"></div>
 
               <div className="social-icons">
-                <InstagramLogo />
-
-                <TwitterLogo />
-                <GithubLogo />
+                <a
+                  href="https://www.instagram.com/hrishi_kesh_rai/"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <InstagramLogo />
+                </a>
+                <a
+                  href="https://twitter.com/Hrishikeshrai2"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <TwitterLogo />
+                </a>
+                <a
+                  href="https://github.com/SskYwaLkeR"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <GithubLogo />
+                </a>
               </div>
             </div>
             <h2>Hi, I'm Hrishikesh.</h2>
