@@ -9,6 +9,9 @@ import MonstersSecondImg from "./components/Optimised-images/monsters/monster-se
 import MonstersThirdImg from "./components/Optimised-images/monsters/monsters-third.image.js"
 
 import SurahaMainImg from "./components/Optimised-images/Suraha/suraha-main.image.js"
+import SurahaSecondImg from "./components/Optimised-images/Suraha/suraha-second.image.js"
+import SurahaThirdImg from "./components/Optimised-images/Suraha/suraha-third.image.js"
+import SurahaFourthImg from "./components/Optimised-images/Suraha/suraha-fourth.image.js"
 
 export const Ecomm = {
   title: `E-comm`,
@@ -116,9 +119,9 @@ export const Saraha = {
   ],
   images: {
     HeroImg: SurahaMainImg,
-    ImgOne: HeroImg,
-    ImgTwo: HeroImg,
-    ImgThree: HeroImg,
+    ImgOne: SurahaThirdImg,
+    ImgTwo: SurahaFourthImg,
+    ImgThree: SurahaSecondImg,
   },
   projGoal: `The main motivation behind this app was to improve my comprehension of node.js and REST APIs in general. Beside this I also 
   wanted to build a fun project which's usefull to any organisation and simple to use.
