@@ -1,4 +1,7 @@
 import React from "react"
+import InstagramMainImg from "../Optimised-images/instagram/instagram-main.image.js"
+import InstagramSecondImg from "../Optimised-images/instagram/instagram-second.image.js"
+import InstagramThirdImg from "../Optimised-images/instagram/instagram-third.image.js"
 import "./instagram.styles.css"
 const Instagram = () => (
   <div className="instagram-wrapper">
@@ -15,10 +18,16 @@ const Instagram = () => (
     </div>
 
     <div className="insta-img-container">
-      <div className="main-img"></div>
+      <div className="main-img">
+        <InstagramMainImg />
+      </div>
       <div className="secondary-imgs">
-        <div className="first-img small-imgs"></div>
-        <div className="second-img small-imgs"></div>
+        <div className="first-img small-imgs">
+          <InstagramSecondImg />
+        </div>
+        <div className="second-img small-imgs">
+          <InstagramThirdImg />
+        </div>
       </div>
     </div>
   </div>
