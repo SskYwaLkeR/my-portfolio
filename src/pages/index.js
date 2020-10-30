@@ -16,6 +16,8 @@ import GithubLogo from "../assets/github.svg"
 import InstagramLogo from "../assets/instagram.svg"
 import TwitterLogo from "../assets/twitter.svg"
 
+import PDF from "../assets/HrishikeshResume.pdf"
+
 import "../components/index.styles.css"
 
 const IndexPage = () => {
@@ -107,11 +109,7 @@ const IndexPage = () => {
               >
                 View Resume
               </a>
-              <a
-                href={`../assets/HrishikeshResume.pdf`}
-                className="resume-btn download-resume-btn"
-                download
-              >
+              <a href={PDF} className="resume-btn download-resume-btn" download>
                 Download Resume
               </a>
             </div>
