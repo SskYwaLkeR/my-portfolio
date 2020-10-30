@@ -1,7 +1,8 @@
 import React from "react"
 import "./connect.styles.css"
-import { LetsTalk } from "../../page-data.js"
 import StaticComponent from "../Container/StaticComponent"
+import { LetsTalk } from "../../page-data.js"
+
 const Connect = () => (
   <div className="connect-wrapper">
     <StaticComponent
