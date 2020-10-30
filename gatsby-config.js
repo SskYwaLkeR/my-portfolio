@@ -27,8 +27,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `Hrishikesh Rai portfolio`,
+        short_name: `Hrishikesh`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#826f8b`,
