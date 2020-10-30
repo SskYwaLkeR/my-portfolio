@@ -5,12 +5,12 @@ import SEO from "../components/seo"
 import { AdoptPet } from "../project.data.js"
 import ProjectTemplate from "../components/Project-template/Project.template.js"
 
-const SecondPage = () => (
+const AdoptAnimalPage = () => (
   <Layout>
-    <SEO title="Page two" />
+    <SEO title="Adopt Animals" />
 
     <ProjectTemplate {...AdoptPet} />
   </Layout>
 )
 
-export default SecondPage
+export default AdoptAnimalPage

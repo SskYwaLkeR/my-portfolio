@@ -5,7 +5,7 @@
 
 .static-container a {
   text-decoration: none;
-  color: inherit;
+  color: hsla(0, 0%, 0%, 0.8);
 }
 
 .static-container {

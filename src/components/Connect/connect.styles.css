@@ -1,6 +1,7 @@
 .connect-wrapper .connect-email {
   text-decoration: none;
-  color: inherit;
+  color: hsla(0, 0%, 0%, 0.8);
+
   transition: all ease-in-out 0.3;
 }
 

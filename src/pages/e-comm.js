@@ -5,12 +5,12 @@ import SEO from "../components/seo"
 import { Ecomm } from "../project.data.js"
 import ProjectTemplate from "../components/Project-template/Project.template.js"
 
-const SecondPage = () => (
+const EcommPage = () => (
   <Layout>
-    <SEO title="Page two" />
+    <SEO title="E-comm" />
 
     <ProjectTemplate {...Ecomm} />
   </Layout>
 )
 
-export default SecondPage
+export default EcommPage
