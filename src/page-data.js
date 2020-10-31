@@ -100,7 +100,7 @@ export const ProjectsData = [
   {
     img: SurahaThumbnail,
     title: `Saraha`,
-    description: `A portal built with react where user can  adopt abandoned pets`,
+    description: `A web app for sending anonymous message. Built using Node, express and mongoDB`,
     key: `p4`,
     url: `/saraha`,
   },
