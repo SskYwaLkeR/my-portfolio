@@ -53,7 +53,7 @@ export const tuutr = {
 
   techStack: [
     { name: "Vue", key: `ts1` },
-    { name: "Bootstrap", key: `ts1` },
-    { name: "VueX", key: `ts2` },
+    { name: "Bootstrap", key: `ts2` },
+    { name: "VueX", key: `ts3` },
   ],
 }
