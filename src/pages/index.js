@@ -102,7 +102,7 @@ const IndexPage = () => {
             <h2>CS graduate and javascript enthusiast.</h2>
             <div className="btn-group">
               <a
-                href="https://drive.google.com/file/d/1wYtcIlon497reJd1q_S1nvPNFackaaZH/view?usp=sharing"
+                href="https://drive.google.com/file/d/1Y2OaKsNSWoy9xJHtxqcEgkkd_QH1MvIX/view?usp=sharing"
                 className="resume-btn view-resume-btn"
                 rel="noopener noreferrer"
                 target="_blank"
