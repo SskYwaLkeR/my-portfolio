@@ -16,7 +16,7 @@ import GithubLogo from "../assets/github.svg"
 import InstagramLogo from "../assets/instagram.svg"
 import TwitterLogo from "../assets/twitter.svg"
 
-import PDF from "../assets/HrishikeshResume.pdf"
+import PDF from "../assets/Hrishikesh_resume.pdf"
 
 import "../components/index.styles.css"
 
@@ -102,7 +102,7 @@ const IndexPage = () => {
             <h2>CS graduate and javascript enthusiast.</h2>
             <div className="btn-group">
               <a
-                href="https://drive.google.com/file/d/1fMD3As2de6bMGlii1YbZOD5dTRnuByf_/view?usp=sharing"
+                href="https://drive.google.com/file/d/1A33h46r4XKopmu9QlIBkFAVbDChA7bP9/view?usp=sharing"
                 className="resume-btn view-resume-btn"
                 rel="noopener noreferrer"
                 target="_blank"
